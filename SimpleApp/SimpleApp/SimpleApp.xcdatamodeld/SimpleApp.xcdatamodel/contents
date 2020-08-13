@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C68" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="MyCategory" representedClassName="" syncable="YES">
+        <attribute name="category_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="category_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email_id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category_detail" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Record" inverseName="record_detail" inverseEntity="Record" syncable="YES"/>
+    </entity>
+    <entity name="Record" representedClassName="" syncable="YES">
+        <attribute name="category_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="record_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="record_time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="record_title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="record_detail" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MyCategory" inverseName="category_detail" inverseEntity="MyCategory" syncable="YES"/>
+    </entity>
+    <entity name="User" syncable="YES">
+        <attribute name="emailId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="licensetype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MyCategory" positionX="-54" positionY="18" width="128" height="105"/>
+        <element name="Record" positionX="-36" positionY="36" width="128" height="150"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
+</model>

@@ -1,0 +1,114 @@
+PODS:
+  - AppAuth (0.95.1)
+  - BFRImageViewer (1.0.32):
+    - DACircularProgress
+    - PINRemoteImage (~> 3.0.0-beta.7)
+  - DACircularProgress (2.3.1)
+  - FLAnimatedImage (1.0.12)
+  - GoogleAPIClientForREST/Core (1.3.9):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Drive (1.3.9):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleMaps (3.5.0):
+    - GoogleMaps/Maps (= 3.5.0)
+  - GoogleMaps/Base (3.5.0)
+  - GoogleMaps/Maps (3.5.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.5.0):
+    - GoogleMaps/Base (= 3.5.0)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - GoogleToolboxForMac/Defines (2.2.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.1)
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.1)"
+  - GTMAppAuth (0.7.1):
+    - AppAuth (~> 0.95)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.2):
+    - GTMSessionFetcher/Full (= 1.2.2)
+  - GTMSessionFetcher/Core (1.2.2)
+  - GTMSessionFetcher/Full (1.2.2):
+    - GTMSessionFetcher/Core (= 1.2.2)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1)
+  - PINRemoteImage (3.0.0-beta.13):
+    - PINRemoteImage/FLAnimatedImage (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache (= 3.0.0-beta.13)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/FLAnimatedImage (3.0.0-beta.13):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+
+DEPENDENCIES:
+  - BFRImageViewer
+  - GoogleAPIClientForREST/Drive (~> 1.3.7)
+  - GoogleMaps
+  - GooglePlaces
+  - GoogleSignIn (~> 4.4.0)
+  - GTMAppAuth
+  - GTMOAuth2 (~> 1.1.0)
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AppAuth
+    - BFRImageViewer
+    - DACircularProgress
+    - FLAnimatedImage
+    - GoogleAPIClientForREST
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMAppAuth
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AppAuth: cd34aac431e5c77c46ec7f03935377faa8c5808b
+  BFRImageViewer: 941dfb08cbf5b05c13e3baeab3e168383f0c64a5
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GoogleAPIClientForREST: 44c7b678cbab11d26a47eab7309d6179b1a61f0c
+  GoogleMaps: 32ca02de09de357a10ac773f2c70f1986751392d
+  GooglePlaces: be6f19fe8aa6ff0b5bcccfa1b8805cc977ea1450
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
+  GTMAppAuth: c5e41aaf039ac1ccc41543e6ea2ef7abd255ad41
+  GTMOAuth2: e8b6512c896235149df975c41d9a36c868ab7fba
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: 7f042fa6df5b606deb4bd5997654cf7033d5be1d
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+
+PODFILE CHECKSUM: 90a5d325483e6e5b7f14f349427c62757aa1944c
+
+COCOAPODS: 1.6.1
